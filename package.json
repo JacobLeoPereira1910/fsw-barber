@@ -3,6 +3,7 @@
     "@prisma/adapter-pg": "^7.4.1",
     "@prisma/client": "^7.4.1",
     "dotenv": "^16.4.7",
+    "git-commit-msg-linter": "^5.0.8",
     "pg": "^8.18.0",
     "prisma": "^7.4.1",
     "ts-node": "^10.9.2"
@@ -11,8 +12,13 @@
     "seed": "ts-node prisma/seed.ts"
   },
   "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
     "prettier": "^3.8.1",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "tsx": "^4.21.0"
+  },
+  "scripts": {
+    "prepare": "husky"
   }
 }

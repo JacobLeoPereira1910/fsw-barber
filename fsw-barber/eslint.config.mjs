@@ -13,6 +13,14 @@ const eslintConfig = defineConfig([
     "build/**",
     "next-env.d.ts",
   ]),
+  {
+    rules: {
+      // Exemplos de rules — ajuste conforme preferir:
+      "no-console": "warn",               // avisa ao usar console.log
+      "no-unused-vars": "warn",           // avisa variáveis não usadas
+      "prefer-const": "error",            // obriga uso de const quando possível
+    },
+  },
 ]);
 
 export default eslintConfig;
