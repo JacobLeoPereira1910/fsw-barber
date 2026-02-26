@@ -1,0 +1,6 @@
+node_modules
+fsw-barber/node_modules
+fsw-barber/.next
+.postgres-data
+.git
+generated
