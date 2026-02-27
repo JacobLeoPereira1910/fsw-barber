@@ -2,5 +2,10 @@
   "prisma.pinToPrisma6": true,
   "git.ignoredRepositories": [
     "/Users/gninoff/Documents/personal/ftr-upload-widget-server"
-  ]
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  }
 }
