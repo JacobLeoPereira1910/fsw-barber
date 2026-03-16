@@ -4,8 +4,5 @@
     "/Users/gninoff/Documents/personal/ftr-upload-widget-server"
   ],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  }
+  "editor.formatOnSave": true
 }
